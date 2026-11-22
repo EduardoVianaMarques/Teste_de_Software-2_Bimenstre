@@ -1,0 +1,99 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< exemplo:exercicios-integracao >--------------------
+[INFO] Building exercicios-integracao 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ exercicios-integracao ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ exercicios-integracao ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ exercicios-integracao ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 6 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ exercicios-integracao ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ exercicios-integracao ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ exercicios-integracao ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running exemplo.ProdutoControllerIntegrationTest
+07:58:07.102 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [exemplo.ProdutoControllerIntegrationTest]: ProdutoControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:58:07.173 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration exemplo.Aplicacao for test class exemplo.ProdutoControllerIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.3.13)
+
+2026-11-22T07:58:07.472-03:00  INFO 549 --- [           main] e.ProdutoControllerIntegrationTest       : Starting ProdutoControllerIntegrationTest using Java 17.0.17 with PID 549 (started by agent in /workspace/scratch/960a9799f261/revisao/SEMANA11)
+2026-11-22T07:58:07.473-03:00  INFO 549 --- [           main] e.ProdutoControllerIntegrationTest       : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T07:58:07.878-03:00  INFO 549 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T07:58:08.054-03:00  INFO 549 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interface.
+2026-11-22T07:58:08.283-03:00  INFO 549 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-22T07:58:08.320-03:00  INFO 549 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-11-22T07:58:08.340-03:00  INFO 549 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-22T07:58:08.518-03:00  INFO 549 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T07:58:08.536-03:00  INFO 549 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-22T07:58:08.659-03:00  INFO 549 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:produtos user=SA
+2026-11-22T07:58:08.660-03:00  INFO 549 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-22T07:58:09.130-03:00  INFO 549 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T07:58:09.155-03:00  INFO 549 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T07:58:09.566-03:00  INFO 549 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-11-22T07:58:09.566-03:00  INFO 549 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-11-22T07:58:09.568-03:00  INFO 549 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-11-22T07:58:09.590-03:00  INFO 549 --- [           main] e.ProdutoControllerIntegrationTest       : Started ProdutoControllerIntegrationTest in 2.318 seconds (process running for 3.197)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.65 s -- in exemplo.ProdutoControllerIntegrationTest
+[INFO] Running exemplo.ProdutoServiceIntegrationTest
+2026-11-22T07:58:20.650-03:00  INFO 549 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [exemplo.ProdutoServiceIntegrationTest]: ProdutoServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-22T07:58:20.652-03:00  INFO 549 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration exemplo.Aplicacao for test class exemplo.ProdutoServiceIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.3.13)
+
+2026-11-22T07:58:20.673-03:00  INFO 549 --- [           main] exemplo.ProdutoServiceIntegrationTest    : Starting ProdutoServiceIntegrationTest using Java 17.0.17 with PID 549 (started by agent in /workspace/scratch/960a9799f261/revisao/SEMANA11)
+2026-11-22T07:58:20.673-03:00  INFO 549 --- [           main] exemplo.ProdutoServiceIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T07:58:20.765-03:00  INFO 549 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T07:58:20.769-03:00  INFO 549 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-22T07:58:20.812-03:00  INFO 549 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-22T07:58:20.813-03:00  INFO 549 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-22T07:58:20.821-03:00  INFO 549 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T07:58:20.822-03:00  INFO 549 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-11-22T07:58:20.823-03:00  INFO 549 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:produtos user=SA
+2026-11-22T07:58:20.823-03:00  INFO 549 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-11-22T07:58:20.846-03:00  INFO 549 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T07:58:20.848-03:00  INFO 549 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T07:58:20.954-03:00  INFO 549 --- [           main] exemplo.ProdutoServiceIntegrationTest    : Started ProdutoServiceIntegrationTest in 0.299 seconds (process running for 14.56)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 s -- in exemplo.ProdutoServiceIntegrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.975 s
+[INFO] Finished at: 2026-11-22T07:58:21-03:00
+[INFO] ------------------------------------------------------------------------

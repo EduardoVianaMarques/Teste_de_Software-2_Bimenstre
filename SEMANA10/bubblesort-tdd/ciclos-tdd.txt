@@ -1,0 +1,16 @@
+Histórico das execuções TDD antes da reorganização dos pacotes.
+
+01-red
+[ERROR] Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.088 s <<< FAILURE! -- in br.edu.exemplo.BubbleSortTest
+[ERROR] Tests run: 3, Failures: 2, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+02-green
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in br.edu.exemplo.BubbleSortTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+03-refactor
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s -- in br.edu.exemplo.BubbleSortTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS

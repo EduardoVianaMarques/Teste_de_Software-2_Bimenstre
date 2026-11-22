@@ -1,0 +1,51 @@
+Histórico das execuções TDD antes da reorganização dos pacotes.
+
+01-red
+[ERROR] Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.104 s <<< FAILURE! -- in br.edu.exemplo.ProdutoTest
+[ERROR] Tests run: 6, Failures: 4, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+02-green-estoque-inicial
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in br.edu.exemplo.ProdutoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+03-green-entradas
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.050 s -- in br.edu.exemplo.ProdutoTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+04-red-retirada
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.038 s <<< FAILURE! -- in br.edu.exemplo.ProdutoTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+05-green-retirada
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in br.edu.exemplo.ProdutoTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+06-red-quantidade-insuficiente
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! -- in br.edu.exemplo.ProdutoTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+07-green-quantidade-insuficiente
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s -- in br.edu.exemplo.ProdutoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+08-red-entrada-invalida
+[ERROR] Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! -- in br.edu.exemplo.ProdutoTest
+[ERROR] Tests run: 7, Failures: 1, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+09-green
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in br.edu.exemplo.ProdutoTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+10-refactor
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in br.edu.exemplo.ProdutoTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS

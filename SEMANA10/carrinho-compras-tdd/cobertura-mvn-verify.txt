@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< exemplo:carrinho-compras-tdd >--------------------
+[INFO] Building carrinho-compras-tdd 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ carrinho-compras-tdd ---
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (prepare-agent) @ carrinho-compras-tdd ---
+[INFO] argLine set to -javaagent:/home/agent/.m2/repository/org/jacoco/org.jacoco.agent/0.8.13/org.jacoco.agent-0.8.13-runtime.jar=destfile=/workspace/scratch/960a9799f261/revisao/SEMANA10/carrinho-compras-tdd/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ carrinho-compras-tdd ---
+[INFO] skip non existing resourceDirectory /workspace/scratch/960a9799f261/revisao/SEMANA10/carrinho-compras-tdd/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ carrinho-compras-tdd ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ carrinho-compras-tdd ---
+[INFO] skip non existing resourceDirectory /workspace/scratch/960a9799f261/revisao/SEMANA10/carrinho-compras-tdd/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ carrinho-compras-tdd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ carrinho-compras-tdd ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running exemplo.ProdutoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s -- in exemplo.ProdutoTest
+[INFO] Running exemplo.CarrinhoTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.243 s -- in exemplo.CarrinhoTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ carrinho-compras-tdd ---
+[INFO] Building jar: /workspace/scratch/960a9799f261/revisao/SEMANA10/carrinho-compras-tdd/target/carrinho-compras-tdd-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jacoco:0.8.13:report (report) @ carrinho-compras-tdd ---
+[INFO] Loading execution data file /workspace/scratch/960a9799f261/revisao/SEMANA10/carrinho-compras-tdd/target/jacoco.exec
+[INFO] Analyzed bundle 'carrinho-compras-tdd' with 2 classes
+[INFO] 
+[INFO] --- jacoco:0.8.13:check (check) @ carrinho-compras-tdd ---
+[INFO] Loading execution data file /workspace/scratch/960a9799f261/revisao/SEMANA10/carrinho-compras-tdd/target/jacoco.exec
+[INFO] Analyzed bundle 'carrinho-compras-tdd' with 2 classes
+[INFO] All coverage checks have been met.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.212 s
+[INFO] Finished at: 2026-11-22T07:58:07-03:00
+[INFO] ------------------------------------------------------------------------

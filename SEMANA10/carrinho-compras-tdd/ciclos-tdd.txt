@@ -1,0 +1,66 @@
+Histórico das execuções TDD antes da reorganização dos pacotes.
+
+01-red-vazio
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! -- in br.edu.exemplo.CarrinhoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] BUILD FAILURE
+
+02-green-vazio
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in br.edu.exemplo.CarrinhoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+03-red-adicionar
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! -- in br.edu.exemplo.CarrinhoTest
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0
+[INFO] BUILD FAILURE
+
+04-green-adicionar
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in br.edu.exemplo.CarrinhoTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+05-red-varios
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! -- in br.edu.exemplo.CarrinhoTest
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+06-green-varios
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s -- in br.edu.exemplo.CarrinhoTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+07-red-remover
+[ERROR] Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! -- in br.edu.exemplo.CarrinhoTest
+[ERROR] Tests run: 4, Failures: 0, Errors: 1, Skipped: 0
+[INFO] BUILD FAILURE
+
+08-green-remover
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in br.edu.exemplo.CarrinhoTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+09-red-preco-negativo
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! -- in br.edu.exemplo.CarrinhoTest
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+10-green-preco-negativo
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in br.edu.exemplo.CarrinhoTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+11-red-desconto
+[ERROR] Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.109 s <<< FAILURE! -- in br.edu.exemplo.CarrinhoTest
+[ERROR] Tests run: 9, Failures: 3, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+
+12-green-desconto
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s -- in br.edu.exemplo.CarrinhoTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+
+13-refactor
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s -- in br.edu.exemplo.CarrinhoTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
